@@ -1,0 +1,457 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main-section{
+	padding: 0 3.5%;
+}
+
+/* --------------navbar section----------------------------------------------------- */
+
+ul li{
+    list-style: none;
+}
+.main-navbar ul li {
+	position: relative;
+}
+
+.main-navbar > ul > li {
+   display: inline-block;   
+}
+
+.main-navbar > ul > li > a {
+    position: relative;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 83px;
+    /* padding: 0px 9px; */
+    outline: none;
+    letter-spacing: 0.78px;
+}
+
+
+
+/* for-submenu */
+.main-navbar ul.for-submenu {
+	text-align: left;
+	position: absolute;
+	left: 27px;
+	top: 150%;
+	width: 275px;
+    background-color: black;
+    
+	z-index: 9999;
+	opacity: 0;  
+	visibility: hidden;
+	    transition: all 0.3s ease-in-out;
+}
+
+.main-navbar ul li:hover > ul.for-submenu {
+	top: 110%;
+	  opacity: 1;
+	visibility: visible;
+}
+
+.main-navbar ul.for-submenu li:first-child {
+	border-top: none;
+}
+
+.main-navbar ul.for-submenu > li > a {
+    display: block;    
+    margin-left: 0;
+	letter-spacing: 1px;
+	font-size: 13px;
+	color: #fff;
+	text-transform: none;
+	text-decoration: none;
+	padding: 7px 0 7px 26px;
+	line-height: 40px;
+	    transition: all 0.3s ease-in-out;
+}
+
+.main-navbar ul.for-submenu > li > a:hover {
+	background-color: #e44c2a ;
+	color: #fff !important;
+}
+
+.main-navbar ul.for-submenu > li > a {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+
+.main-navbar > ul > li > a:hover {
+	color: #e44c2a ;
+	position: relative;
+}
+
+.header {
+	position: relative;
+}
+.nav-item{
+    padding: 0 24px !important;
+}
+
+/* --------------------------section 2 our menu image-------------------------------------------- */
+
+.section-pedding0{
+	padding-bottom: 40px;
+}
+
+.bg-image{
+	background-image: url("parallax.jpg");
+	padding: 83px 0 80px 0;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-page-title{
+	text-align: center;
+}
+
+.menu-page-title ul li{
+	display: inline-block;
+	margin: 5px;
+}
+
+.menu-page-title ul li .home{
+	text-decoration: none;
+	color: #959595;
+}
+
+.menu-page-title ul li .home:hover{
+	color: #e44c2a;
+}
+
+.menu-page-title ul li .menu{
+	text-decoration: none;
+	color: white;
+}
+
+.menu-page-title h1{
+	color: white;
+}
+
+
+/* ------------------------------------section 7 order form--------------------------------------------------- */
+.section-pedding{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.div-title2{
+	margin-left: 20px;
+    text-align: center;
+}
+
+.div-title2 .title:before{
+	position: absolute;
+	content: "";
+	width: 30px;
+	height: 6px;
+	background-color: #e44c2a;
+	top: 12%;
+	left: 146px;
+}
+
+.day{
+	padding-top: 25px;
+    padding-right: 50px;
+}
+.day .for-color{
+	font-size: 13px;
+    color: #999999;
+}
+
+.day .for-color span{
+	color: black;
+}
+
+.number{
+	color: #e44c2a;
+	padding-top: 10px;
+	font-weight: normal;
+}
+
+.title1{
+	line-height: 23px !important;
+}
+
+.form_title .title1:before{
+	position: absolute;
+    content: "";
+    width: 263px;
+    height: 1px;
+    background-color: #999999;
+    top: 49%;
+    left: 23px;
+}
+
+.form_title .title1:after{
+	position: absolute;
+    content: "";
+    width: 263px;
+    height: 1px;
+    background-color: #999999;
+    top: 49%;
+    left: 398px;
+}
+
+.yourname-box{
+	width: 50%;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 19px;
+}
+
+.time-box{
+	width: 50%;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 19px;
+}
+
+#date-picker{
+	width: 211px;
+}
+
+#time-picker{
+	width: 99px;
+    position: relative;
+    top: -40px;
+    left: 209px;
+}
+
+.phone-box{
+	width: 50%;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 19px;
+}
+
+.seats-box{
+	width: 50%;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 19px;
+}
+
+.form-control{
+	font-size: 12px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 2px;
+    width: 100%;
+}
+
+.button2{
+	background: #e44c2a;
+	border: 3px solid #fff;
+	border-radius: 5px !important;
+	color: white;
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 13px 28px;
+	position: relative;
+	text-transform: uppercase;
+	left: 38%;
+}
+
+
+/* -----------------------------section 11 footer--------------------------------------------------- */
+
+.footer-title h5{
+	font-weight: 700;
+}
+
+.footer-content{
+	margin-bottom: 24px;
+    font-size: 14px;
+    color: #565656;
+	text-align: initial;
+	line-height: 25px;
+}
+
+.footer-list li{
+	list-style: none;
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: #565656;
+}
+
+.footer-list li i{
+    font-size: 14px;
+	margin-right: 10px;
+	color: #565656;
+}
+
+.footer-list li span{
+	padding-left: 24px;
+	color: #565656;
+}
+/* 
+.footer-image h6 a{
+	position: absolute;
+	top: 47px;
+	left: 121px;
+	text-decoration: none;
+	color: #565656;
+	font-size: 16px;
+}
+
+.footer-image h6 a:hover{
+	color: #e44c2a;
+}
+
+.footer-image p{
+	position: absolute;
+    top: 96px;
+    left: 121px;
+	font-size: 13px;
+	color: #565656;
+}
+
+.footer-image2 h6 a{
+	position: absolute;
+	top: 143px;
+	left: 121px;
+	text-decoration: none;
+	color: #565656;
+	font-size: 16px;
+}
+
+.footer-image2 h6 a:hover{
+	color: #e44c2a;
+}
+
+.footer-image2 p{
+	position: absolute;
+    top: 193px;
+    left: 121px;
+	font-size: 13px;
+	color: #565656;
+} */
+
+.left-image{
+	display: inline-block;
+}
+
+.left{
+	float: right;
+    width: 177px;
+    display: inline-block;
+}
+
+.left h6 a{
+	text-decoration: none;
+	color: #565656;
+	font-size: 16px;
+}
+
+.left h6 a:hover{
+	color: #e44c2a;
+}
+
+.left p{
+	font-size: 13px;
+}
+
+.user-link{
+	display: inline-block;
+}
+
+.user-link ul li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.user-link ul li a{
+	text-decoration: none;
+	color: #565656;
+	font-size: 14px;
+}
+
+.user-link ul li a:hover{
+	color: #e44c2a;
+}
+
+
+
+.user-link2 ul li{
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+.user-link2 ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #565656;
+}
+
+.user-link2 ul li i{
+	font-size: 14px;
+	margin-right: 10px;
+	color: #565656;
+}
+
+.copy-right{
+	display: inline-block;
+}
+
+.copy-right p{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 60px;
+	color: #565656;
+}
+
+.copy-right span{
+	color: #e44c2a;
+}
+
+.back{
+	display: inline-block;
+	float: right;
+}
+
+.back p a{
+	text-decoration: none;
+	color: #565656;
+}
+
+.back p a:hover{
+	color: #e44c2a !important;
+	cursor: pointer;
+}
+
+.back p{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 60px;
+	color: #565656;
+}
+
+.section-peddingg{
+	padding-top: 40px;
+}
+
+.line{
+	color: #565656;
+}
+
+
+

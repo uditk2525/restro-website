@@ -1,0 +1,488 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main-section{
+	padding: 0 3.5%;
+}
+
+/* --------------navbar section----------------------------------------------------- */
+
+ul li{
+    list-style: none;
+}
+.main-navbar ul li {
+	position: relative;
+}
+
+.main-navbar > ul > li {
+   display: inline-block;   
+}
+
+.main-navbar > ul > li > a {
+    position: relative;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 83px;
+    /* padding: 0px 9px; */
+    outline: none;
+    letter-spacing: 0.78px;
+}
+
+
+
+/* for-submenu */
+.main-navbar ul.for-submenu {
+	text-align: left;
+	position: absolute;
+	left: 27px;
+	top: 150%;
+	width: 275px;
+    background-color: black;
+    
+	z-index: 9999;
+	opacity: 0;  
+	visibility: hidden;
+	    transition: all 0.3s ease-in-out;
+}
+
+.main-navbar ul li:hover > ul.for-submenu {
+	top: 110%;
+	  opacity: 1;
+	visibility: visible;
+}
+
+.main-navbar ul.for-submenu li:first-child {
+	border-top: none;
+}
+
+.main-navbar ul.for-submenu > li > a {
+    display: block;    
+    margin-left: 0;
+	letter-spacing: 1px;
+	font-size: 13px;
+	color: #fff;
+	text-transform: none;
+	text-decoration: none;
+	padding: 7px 0 7px 26px;
+	line-height: 40px;
+	    transition: all 0.3s ease-in-out;
+}
+
+.main-navbar ul.for-submenu > li > a:hover {
+	background-color: #e44c2a ;
+	color: #fff !important;
+}
+
+.main-navbar ul.for-submenu > li > a {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+
+.main-navbar > ul > li > a:hover {
+	color: #e44c2a ;
+	position: relative;
+}
+
+.header {
+	position: relative;
+}
+.nav-item{
+    padding: 0 24px !important;
+}
+
+/* --------------------------section 2 our menu image-------------------------------------------- */
+
+.section-pedding0{
+	padding-bottom: 40px;
+}
+
+.bg-image{
+	background-image: url("parallax.jpg");
+	padding: 83px 0 80px 0;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-page-title{
+	text-align: center;
+}
+
+.menu-page-title ul li{
+	display: inline-block;
+	margin: 5px;
+}
+
+.menu-page-title ul li .home{
+	text-decoration: none;
+	color: #959595;
+}
+
+.menu-page-title ul li .home:hover{
+	color: #e44c2a;
+}
+
+.menu-page-title ul li .menu{
+	text-decoration: none;
+	color: white;
+}
+
+.menu-page-title h1{
+	color: white;
+}
+
+
+/* --------------------------------section 3 our story----------------------------------------- */
+
+.section-pedding{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+img{
+	max-width: 100%;
+    height: auto;
+}
+
+.content-div{
+	padding-left: 40px;
+	padding-top: 76px;
+}
+
+.div-title{
+	margin-left: 20px;
+	margin-bottom: 36px;
+	text-align: left;
+}
+
+.title{
+	font-weight: 500;
+    line-height: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.div-title .title:before{
+		position: absolute;
+		content: "";
+		width: 30px;
+		height: 6px;
+		background-color: #e44c2a;
+		top: 50%;
+		left: -19px;
+		margin-top: -2px;
+}
+
+.our-story-para{
+	margin-bottom: 36px;
+	font-size: 14px;
+    color: #999999;
+}
+
+.our-story-list li{
+	list-style: none;
+	margin-bottom: 10px;
+	font-size: 14px;
+    color: #999999;
+}
+
+.our-story-list li i{
+	color: #e44c2a;
+    font-size: 8px;
+    margin-right: 10px;
+}
+
+.team-content{
+	text-align: center;
+	border: 1px solid #e5e5e5;
+}
+
+.team-content h6{
+	padding-top: 23px;
+}
+
+.team-content p{
+	color: #999999;
+	font-size: 14px;
+}
+
+.team-content .social a i{
+	color: #999999;
+}
+
+.team-content .social a:hover i{
+	color: #e44c2a;
+}
+.team-content .social a {
+	padding-right: 19px;
+}
+.social :last-child{
+	padding-right: 0px !important;
+}
+
+/* ------------------------------------section 6 our customer------------------------------------------------------- */
+
+.div-title2{
+	margin-left: 20px;
+    text-align: center;
+}
+
+.div-title2 .title:before{
+	position: absolute;
+	content: "";
+	width: 30px;
+	height: 6px;
+	background-color: #e44c2a;
+	top: 50%;
+	left: -19px;
+	margin-top: -2px;
+}
+
+/* carousel */
+.carousel-control-prev span{
+	background-color: black;
+	color: #999999;
+}
+
+.carousel-control-next span{
+	background-color: black;
+	color: #999999;
+}
+
+.carousel-item h5{
+	color: #e44c2a;
+	margin-bottom: 0;
+}
+
+.carousel-item p{
+	font-size: 20px;
+	line-height: 27px;
+	font-style: italic;
+	color: #999999;
+}
+
+.profession{
+	font-size: 16px;
+	margin: o;
+	color: #999999;
+}
+
+/* ------------------------------section 7 event-------------------------------------- */
+
+.event-time{
+	font-size: 14px;
+	font-style: italic;
+	color: #999999;
+}
+
+.event-para{
+	font-size: 14px;
+    color: #565656;;
+}
+
+.counter p {
+	text-align: center;
+	font-size: 40px;
+	margin-top:0px;
+	color: #e44c2a;
+	background-color: #565656;
+  }
+
+  .counter{
+	  padding-left: 41px;
+	  padding-top: 34px;
+  }
+
+/* -----------------------------section 11 footer--------------------------------------------------- */
+
+.footer-title h5{
+	font-weight: 700;
+}
+
+.footer-content{
+	margin-bottom: 24px;
+    font-size: 14px;
+    color: #565656;
+	text-align: initial;
+	line-height: 25px;
+}
+
+.footer-list li{
+	list-style: none;
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: #565656;
+}
+
+.footer-list li i{
+    font-size: 14px;
+	margin-right: 10px;
+	color: #565656;
+}
+
+.footer-list li span{
+	padding-left: 24px;
+	color: #565656;
+}
+/* 
+.footer-image h6 a{
+	position: absolute;
+	top: 47px;
+	left: 121px;
+	text-decoration: none;
+	color: #565656;
+	font-size: 16px;
+}
+
+.footer-image h6 a:hover{
+	color: #e44c2a;
+}
+
+.footer-image p{
+	position: absolute;
+    top: 96px;
+    left: 121px;
+	font-size: 13px;
+	color: #565656;
+}
+
+.footer-image2 h6 a{
+	position: absolute;
+	top: 143px;
+	left: 121px;
+	text-decoration: none;
+	color: #565656;
+	font-size: 16px;
+}
+
+.footer-image2 h6 a:hover{
+	color: #e44c2a;
+}
+
+.footer-image2 p{
+	position: absolute;
+    top: 193px;
+    left: 121px;
+	font-size: 13px;
+	color: #565656;
+} */
+
+.left-image{
+	display: inline-block;
+}
+
+.left{
+	float: right;
+    width: 177px;
+    display: inline-block;
+}
+
+.left h6 a{
+	text-decoration: none;
+	color: #565656;
+	font-size: 16px;
+}
+
+.left h6 a:hover{
+	color: #e44c2a;
+}
+
+.left p{
+	font-size: 13px;
+}
+
+.user-link{
+	display: inline-block;
+}
+
+.user-link ul li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.user-link ul li a{
+	text-decoration: none;
+	color: #565656;
+	font-size: 14px;
+}
+
+.user-link ul li a:hover{
+	color: #e44c2a;
+}
+
+
+
+.user-link2 ul li{
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+.user-link2 ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #565656;
+}
+
+.user-link2 ul li i{
+	font-size: 14px;
+	margin-right: 10px;
+	color: #565656;
+}
+
+.copy-right{
+	display: inline-block;
+}
+
+.copy-right p{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 60px;
+	color: #565656;
+}
+
+.copy-right span{
+	color: #e44c2a;
+}
+
+.back{
+	display: inline-block;
+	float: right;
+}
+
+.back p a{
+	text-decoration: none;
+	color: #565656;
+}
+
+.back p a:hover{
+	color: #e44c2a !important;
+	cursor: pointer;
+}
+
+.back p{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 60px;
+	color: #565656;
+}
+
+.section-peddingg{
+	padding-top: 40px;
+}
+
+.line{
+	color: #565656;
+}
+
+
+
